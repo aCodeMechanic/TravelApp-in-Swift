@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790B8DE61D1AD4A90070EF5A /* Enneagram_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 790B8DE51D1AD4A90070EF5A /* Enneagram_circle.png */; };
+		792D7E1E1D17B16C0057EA79 /* vdoit4u_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 792D7E1D1D17B16C0057EA79 /* vdoit4u_logo.png */; };
+		795230811D0EE7C50096912B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795230801D0EE7C50096912B /* AppDelegate.swift */; };
+		795230831D0EE7C50096912B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795230821D0EE7C50096912B /* ViewController.swift */; };
+		795230861D0EE7C50096912B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795230841D0EE7C50096912B /* Main.storyboard */; };
+		795230881D0EE7C50096912B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795230871D0EE7C50096912B /* Assets.xcassets */; };
+		7952308B1D0EE7C50096912B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795230891D0EE7C50096912B /* LaunchScreen.storyboard */; };
+		795230961D0EE7C50096912B /* VDOIT4UTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795230951D0EE7C50096912B /* VDOIT4UTests.swift */; };
+		795230A11D0EE7C50096912B /* VDOIT4UUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795230A01D0EE7C50096912B /* VDOIT4UUITests.swift */; };
+		795230B21D0EE8000096912B /* Vdoit4u App Home Page _icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230AE1D0EE8000096912B /* Vdoit4u App Home Page _icon.png */; };
+		795230B31D0EE8000096912B /* vertical_BTDT.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230AF1D0EE8000096912B /* vertical_BTDT.png */; };
+		795230B41D0EE8000096912B /* Login-Button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 795230B01D0EE8000096912B /* Login-Button.jpg */; };
+		795230B51D0EE8000096912B /* vdoit4u_ic copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230B11D0EE8000096912B /* vdoit4u_ic copy.png */; };
+		795230B71D0EE8100096912B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795230B61D0EE8100096912B /* SecondViewController.swift */; };
+		795230BD1D0F34D70096912B /* airplane_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230BB1D0F34D70096912B /* airplane_pressed.png */; };
+		795230BE1D0F34D70096912B /* airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230BC1D0F34D70096912B /* airplane.png */; };
+		795230C11D0F36D40096912B /* must_visit_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230BF1D0F36D40096912B /* must_visit_pressed.png */; };
+		795230C21D0F36D40096912B /* must_visit.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230C01D0F36D40096912B /* must_visit.png */; };
+		795230C51D0F37750096912B /* must_eat_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230C31D0F37750096912B /* must_eat_pressed.png */; };
+		795230C61D0F37750096912B /* must_eat.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230C41D0F37750096912B /* must_eat.png */; };
+		795230C91D0F37AA0096912B /* must_shop_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230C71D0F37AA0096912B /* must_shop_pressed.png */; };
+		795230CA1D0F37AA0096912B /* must_shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230C81D0F37AA0096912B /* must_shop.png */; };
+		795230CD1D0F37F10096912B /* attendees_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230CB1D0F37F10096912B /* attendees_pressed.png */; };
+		795230CE1D0F37F10096912B /* attendees.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230CC1D0F37F10096912B /* attendees.png */; };
+		795230D11D0F384E0096912B /* photos_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230CF1D0F384E0096912B /* photos_pressed.png */; };
+		795230D21D0F384E0096912B /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230D01D0F384E0096912B /* photos.png */; };
+		795230D51D0F388F0096912B /* message_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230D31D0F388F0096912B /* message_pressed.png */; };
+		795230D61D0F388F0096912B /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230D41D0F388F0096912B /* message.png */; };
+		795230D91D0F3AA30096912B /* dash_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230D71D0F3AA30096912B /* dash_pressed.png */; };
+		795230DA1D0F3AA30096912B /* dash.png in Resources */ = {isa = PBXBuildFile; fileRef = 795230D81D0F3AA30096912B /* dash.png */; };
+		7982F1DF1D16A7C400E59385 /* DashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7982F1DE1D16A7C400E59385 /* DashViewController.swift */; };
+		7982F1E11D16AA1000E59385 /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7982F1E01D16AA1000E59385 /* camera-icon.png */; };
+		7982F1E31D16AAF800E59385 /* Circle-upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 7982F1E21D16AAF800E59385 /* Circle-upload.png */; };
+		7982F1E51D16AC8900E59385 /* icon-2-circle-symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 7982F1E41D16AC8900E59385 /* icon-2-circle-symbol.png */; };
+		7985E4531D1B9F150078E30F /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 7985E4521D1B9F150078E30F /* logout.png */; };
+		7992E35D1D13F6BB00D0E4D0 /* FlightHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7992E35C1D13F6BB00D0E4D0 /* FlightHomeViewController.swift */; };
+		7992E35F1D1416C300D0E4D0 /* flight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7992E35E1D1416C300D0E4D0 /* flight.png */; };
+		7992E3611D14183A00D0E4D0 /* transport.png in Resources */ = {isa = PBXBuildFile; fileRef = 7992E3601D14183A00D0E4D0 /* transport.png */; };
+		7992E3631D14195B00D0E4D0 /* accom.png in Resources */ = {isa = PBXBuildFile; fileRef = 7992E3621D14195B00D0E4D0 /* accom.png */; };
+		799376541D19938F00AAFF45 /* AccomodationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799376531D19938F00AAFF45 /* AccomodationViewController.swift */; };
+		79C187651D1BE23200797084 /* checked-checkbox-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C187631D1BE23200797084 /* checked-checkbox-xxl.png */; };
+		79C187661D1BE23200797084 /* unchecked_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C187641D1BE23200797084 /* unchecked_checkbox.png */; };
+		79C187681D1BED1700797084 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C187671D1BED1700797084 /* CheckBox.swift */; };
+		79CCAD391D188DCD001C399D /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CCAD381D188DCD001C399D /* SingletonClass.swift */; };
+		79DECD1C1D14362A00E06DEF /* custom_commmon_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 79DECD1B1D14362A00E06DEF /* custom_commmon_background.png */; };
+		79DECD1E1D14689200E06DEF /* MustVisitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DECD1D1D14689200E06DEF /* MustVisitViewController.swift */; };
+		79DECD201D14699800E06DEF /* MustEatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DECD1F1D14699800E06DEF /* MustEatViewController.swift */; };
+		79DECD221D146A2F00E06DEF /* MustShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DECD211D146A2F00E06DEF /* MustShopViewController.swift */; };
+		79DECD241D1471B300E06DEF /* AttendeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DECD231D1471B300E06DEF /* AttendeesViewController.swift */; };
+		79DECD261D1477C600E06DEF /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DECD251D1477C600E06DEF /* PhotosViewController.swift */; };
+		79DECD281D14806600E06DEF /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DECD271D14806600E06DEF /* MessagesViewController.swift */; };
+		79DFBF2C1D1721BC00BF8F12 /* loginbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 79DFBF2B1D1721BC00BF8F12 /* loginbutton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		795230921D0EE7C50096912B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 795230751D0EE7C50096912B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7952307C1D0EE7C50096912B;
+			remoteInfo = VDOIT4U;
+		};
+		7952309D1D0EE7C50096912B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 795230751D0EE7C50096912B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7952307C1D0EE7C50096912B;
+			remoteInfo = VDOIT4U;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		790B8DE51D1AD4A90070EF5A /* Enneagram_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Enneagram_circle.png; sourceTree = "<group>"; };
+		792D7E1D1D17B16C0057EA79 /* vdoit4u_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vdoit4u_logo.png; path = VDOIT4U/vdoit4u_logo.png; sourceTree = "<group>"; };
+		7952307D1D0EE7C50096912B /* VDOIT4U.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDOIT4U.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		795230801D0EE7C50096912B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		795230821D0EE7C50096912B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		795230851D0EE7C50096912B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		795230871D0EE7C50096912B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7952308A1D0EE7C50096912B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7952308C1D0EE7C50096912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795230911D0EE7C50096912B /* VDOIT4UTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VDOIT4UTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		795230951D0EE7C50096912B /* VDOIT4UTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDOIT4UTests.swift; sourceTree = "<group>"; };
+		795230971D0EE7C50096912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7952309C1D0EE7C50096912B /* VDOIT4UUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VDOIT4UUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		795230A01D0EE7C50096912B /* VDOIT4UUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDOIT4UUITests.swift; sourceTree = "<group>"; };
+		795230A21D0EE7C50096912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795230AE1D0EE8000096912B /* Vdoit4u App Home Page _icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Vdoit4u App Home Page _icon.png"; path = "VDOIT4U/Vdoit4u App Home Page _icon.png"; sourceTree = "<group>"; };
+		795230AF1D0EE8000096912B /* vertical_BTDT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vertical_BTDT.png; path = VDOIT4U/vertical_BTDT.png; sourceTree = "<group>"; };
+		795230B01D0EE8000096912B /* Login-Button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Login-Button.jpg"; path = "VDOIT4U/Login-Button.jpg"; sourceTree = "<group>"; };
+		795230B11D0EE8000096912B /* vdoit4u_ic copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vdoit4u_ic copy.png"; path = "VDOIT4U/vdoit4u_ic copy.png"; sourceTree = "<group>"; };
+		795230B61D0EE8100096912B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		795230BB1D0F34D70096912B /* airplane_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane_pressed.png; sourceTree = "<group>"; };
+		795230BC1D0F34D70096912B /* airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane.png; sourceTree = "<group>"; };
+		795230BF1D0F36D40096912B /* must_visit_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = must_visit_pressed.png; sourceTree = "<group>"; };
+		795230C01D0F36D40096912B /* must_visit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = must_visit.png; sourceTree = "<group>"; };
+		795230C31D0F37750096912B /* must_eat_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = must_eat_pressed.png; sourceTree = "<group>"; };
+		795230C41D0F37750096912B /* must_eat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = must_eat.png; sourceTree = "<group>"; };
+		795230C71D0F37AA0096912B /* must_shop_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = must_shop_pressed.png; sourceTree = "<group>"; };
+		795230C81D0F37AA0096912B /* must_shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = must_shop.png; sourceTree = "<group>"; };
+		795230CB1D0F37F10096912B /* attendees_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attendees_pressed.png; sourceTree = "<group>"; };
+		795230CC1D0F37F10096912B /* attendees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attendees.png; sourceTree = "<group>"; };
+		795230CF1D0F384E0096912B /* photos_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos_pressed.png; sourceTree = "<group>"; };
+		795230D01D0F384E0096912B /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
+		795230D31D0F388F0096912B /* message_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_pressed.png; sourceTree = "<group>"; };
+		795230D41D0F388F0096912B /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		795230D71D0F3AA30096912B /* dash_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash_pressed.png; sourceTree = "<group>"; };
+		795230D81D0F3AA30096912B /* dash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash.png; sourceTree = "<group>"; };
+		7982F1DE1D16A7C400E59385 /* DashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashViewController.swift; sourceTree = "<group>"; };
+		7982F1E01D16AA1000E59385 /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-icon.png"; path = "VDOIT4U/camera-icon.png"; sourceTree = "<group>"; };
+		7982F1E21D16AAF800E59385 /* Circle-upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Circle-upload.png"; path = "VDOIT4U/Circle-upload.png"; sourceTree = "<group>"; };
+		7982F1E41D16AC8900E59385 /* icon-2-circle-symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-2-circle-symbol.png"; path = "VDOIT4U/icon-2-circle-symbol.png"; sourceTree = "<group>"; };
+		7985E4521D1B9F150078E30F /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		7992E35C1D13F6BB00D0E4D0 /* FlightHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightHomeViewController.swift; sourceTree = "<group>"; };
+		7992E35E1D1416C300D0E4D0 /* flight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flight.png; sourceTree = "<group>"; };
+		7992E3601D14183A00D0E4D0 /* transport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transport.png; sourceTree = "<group>"; };
+		7992E3621D14195B00D0E4D0 /* accom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accom.png; sourceTree = "<group>"; };
+		799376531D19938F00AAFF45 /* AccomodationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccomodationViewController.swift; sourceTree = "<group>"; };
+		79C187631D1BE23200797084 /* checked-checkbox-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked-checkbox-xxl.png"; sourceTree = "<group>"; };
+		79C187641D1BE23200797084 /* unchecked_checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked_checkbox.png; sourceTree = "<group>"; };
+		79C187671D1BED1700797084 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		79CCAD381D188DCD001C399D /* SingletonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
+		79DECD1B1D14362A00E06DEF /* custom_commmon_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_commmon_background.png; sourceTree = "<group>"; };
+		79DECD1D1D14689200E06DEF /* MustVisitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MustVisitViewController.swift; sourceTree = "<group>"; };
+		79DECD1F1D14699800E06DEF /* MustEatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MustEatViewController.swift; sourceTree = "<group>"; };
+		79DECD211D146A2F00E06DEF /* MustShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MustShopViewController.swift; sourceTree = "<group>"; };
+		79DECD231D1471B300E06DEF /* AttendeesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeesViewController.swift; sourceTree = "<group>"; };
+		79DECD251D1477C600E06DEF /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		79DECD271D14806600E06DEF /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		79DFBF2B1D1721BC00BF8F12 /* loginbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbutton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7952307A1D0EE7C50096912B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7952308E1D0EE7C50096912B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795230991D0EE7C50096912B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		795230741D0EE7C50096912B = {
+			isa = PBXGroup;
+			children = (
+				795230B81D0EE8440096912B /* images */,
+				7952307F1D0EE7C50096912B /* VDOIT4U */,
+				795230941D0EE7C50096912B /* VDOIT4UTests */,
+				7952309F1D0EE7C50096912B /* VDOIT4UUITests */,
+				7952307E1D0EE7C50096912B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7952307E1D0EE7C50096912B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7952307D1D0EE7C50096912B /* VDOIT4U.app */,
+				795230911D0EE7C50096912B /* VDOIT4UTests.xctest */,
+				7952309C1D0EE7C50096912B /* VDOIT4UUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7952307F1D0EE7C50096912B /* VDOIT4U */ = {
+			isa = PBXGroup;
+			children = (
+				795230801D0EE7C50096912B /* AppDelegate.swift */,
+				795230821D0EE7C50096912B /* ViewController.swift */,
+				79C187671D1BED1700797084 /* CheckBox.swift */,
+				795230B61D0EE8100096912B /* SecondViewController.swift */,
+				7992E35C1D13F6BB00D0E4D0 /* FlightHomeViewController.swift */,
+				79DECD1D1D14689200E06DEF /* MustVisitViewController.swift */,
+				79DECD1F1D14699800E06DEF /* MustEatViewController.swift */,
+				79DECD211D146A2F00E06DEF /* MustShopViewController.swift */,
+				79DECD231D1471B300E06DEF /* AttendeesViewController.swift */,
+				79DECD251D1477C600E06DEF /* PhotosViewController.swift */,
+				79DECD271D14806600E06DEF /* MessagesViewController.swift */,
+				7982F1DE1D16A7C400E59385 /* DashViewController.swift */,
+				79CCAD381D188DCD001C399D /* SingletonClass.swift */,
+				799376531D19938F00AAFF45 /* AccomodationViewController.swift */,
+				795230841D0EE7C50096912B /* Main.storyboard */,
+				795230871D0EE7C50096912B /* Assets.xcassets */,
+				795230891D0EE7C50096912B /* LaunchScreen.storyboard */,
+				7952308C1D0EE7C50096912B /* Info.plist */,
+			);
+			path = VDOIT4U;
+			sourceTree = "<group>";
+		};
+		795230941D0EE7C50096912B /* VDOIT4UTests */ = {
+			isa = PBXGroup;
+			children = (
+				795230951D0EE7C50096912B /* VDOIT4UTests.swift */,
+				795230971D0EE7C50096912B /* Info.plist */,
+			);
+			path = VDOIT4UTests;
+			sourceTree = "<group>";
+		};
+		7952309F1D0EE7C50096912B /* VDOIT4UUITests */ = {
+			isa = PBXGroup;
+			children = (
+				795230A01D0EE7C50096912B /* VDOIT4UUITests.swift */,
+				795230A21D0EE7C50096912B /* Info.plist */,
+			);
+			path = VDOIT4UUITests;
+			sourceTree = "<group>";
+		};
+		795230B81D0EE8440096912B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				79C187631D1BE23200797084 /* checked-checkbox-xxl.png */,
+				79C187641D1BE23200797084 /* unchecked_checkbox.png */,
+				7985E4521D1B9F150078E30F /* logout.png */,
+				790B8DE51D1AD4A90070EF5A /* Enneagram_circle.png */,
+				79DFBF2B1D1721BC00BF8F12 /* loginbutton.png */,
+				7982F1E21D16AAF800E59385 /* Circle-upload.png */,
+				7982F1E41D16AC8900E59385 /* icon-2-circle-symbol.png */,
+				7982F1E01D16AA1000E59385 /* camera-icon.png */,
+				79DECD1B1D14362A00E06DEF /* custom_commmon_background.png */,
+				7992E35E1D1416C300D0E4D0 /* flight.png */,
+				795230D31D0F388F0096912B /* message_pressed.png */,
+				7992E3601D14183A00D0E4D0 /* transport.png */,
+				795230D71D0F3AA30096912B /* dash_pressed.png */,
+				7992E3621D14195B00D0E4D0 /* accom.png */,
+				792D7E1D1D17B16C0057EA79 /* vdoit4u_logo.png */,
+				795230D81D0F3AA30096912B /* dash.png */,
+				795230D41D0F388F0096912B /* message.png */,
+				795230CF1D0F384E0096912B /* photos_pressed.png */,
+				795230D01D0F384E0096912B /* photos.png */,
+				795230CB1D0F37F10096912B /* attendees_pressed.png */,
+				795230CC1D0F37F10096912B /* attendees.png */,
+				795230C71D0F37AA0096912B /* must_shop_pressed.png */,
+				795230C81D0F37AA0096912B /* must_shop.png */,
+				795230C31D0F37750096912B /* must_eat_pressed.png */,
+				795230C41D0F37750096912B /* must_eat.png */,
+				795230BF1D0F36D40096912B /* must_visit_pressed.png */,
+				795230C01D0F36D40096912B /* must_visit.png */,
+				795230BB1D0F34D70096912B /* airplane_pressed.png */,
+				795230BC1D0F34D70096912B /* airplane.png */,
+				795230AE1D0EE8000096912B /* Vdoit4u App Home Page _icon.png */,
+				795230AF1D0EE8000096912B /* vertical_BTDT.png */,
+				795230B01D0EE8000096912B /* Login-Button.jpg */,
+				795230B11D0EE8000096912B /* vdoit4u_ic copy.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7952307C1D0EE7C50096912B /* VDOIT4U */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795230A51D0EE7C50096912B /* Build configuration list for PBXNativeTarget "VDOIT4U" */;
+			buildPhases = (
+				795230791D0EE7C50096912B /* Sources */,
+				7952307A1D0EE7C50096912B /* Frameworks */,
+				7952307B1D0EE7C50096912B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VDOIT4U;
+			productName = VDOIT4U;
+			productReference = 7952307D1D0EE7C50096912B /* VDOIT4U.app */;
+			productType = "com.apple.product-type.application";
+		};
+		795230901D0EE7C50096912B /* VDOIT4UTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795230A81D0EE7C50096912B /* Build configuration list for PBXNativeTarget "VDOIT4UTests" */;
+			buildPhases = (
+				7952308D1D0EE7C50096912B /* Sources */,
+				7952308E1D0EE7C50096912B /* Frameworks */,
+				7952308F1D0EE7C50096912B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				795230931D0EE7C50096912B /* PBXTargetDependency */,
+			);
+			name = VDOIT4UTests;
+			productName = VDOIT4UTests;
+			productReference = 795230911D0EE7C50096912B /* VDOIT4UTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7952309B1D0EE7C50096912B /* VDOIT4UUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795230AB1D0EE7C50096912B /* Build configuration list for PBXNativeTarget "VDOIT4UUITests" */;
+			buildPhases = (
+				795230981D0EE7C50096912B /* Sources */,
+				795230991D0EE7C50096912B /* Frameworks */,
+				7952309A1D0EE7C50096912B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7952309E1D0EE7C50096912B /* PBXTargetDependency */,
+			);
+			name = VDOIT4UUITests;
+			productName = VDOIT4UUITests;
+			productReference = 7952309C1D0EE7C50096912B /* VDOIT4UUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		795230751D0EE7C50096912B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = VDoIt4U;
+				TargetAttributes = {
+					7952307C1D0EE7C50096912B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2LT6JB86VS;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+					};
+					795230901D0EE7C50096912B = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 7952307C1D0EE7C50096912B;
+					};
+					7952309B1D0EE7C50096912B = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 7952307C1D0EE7C50096912B;
+					};
+				};
+			};
+			buildConfigurationList = 795230781D0EE7C50096912B /* Build configuration list for PBXProject "VDOIT4U" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 795230741D0EE7C50096912B;
+			productRefGroup = 7952307E1D0EE7C50096912B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7952307C1D0EE7C50096912B /* VDOIT4U */,
+				795230901D0EE7C50096912B /* VDOIT4UTests */,
+				7952309B1D0EE7C50096912B /* VDOIT4UUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7952307B1D0EE7C50096912B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795230BD1D0F34D70096912B /* airplane_pressed.png in Resources */,
+				7992E3631D14195B00D0E4D0 /* accom.png in Resources */,
+				792D7E1E1D17B16C0057EA79 /* vdoit4u_logo.png in Resources */,
+				795230C61D0F37750096912B /* must_eat.png in Resources */,
+				795230B21D0EE8000096912B /* Vdoit4u App Home Page _icon.png in Resources */,
+				79DECD1C1D14362A00E06DEF /* custom_commmon_background.png in Resources */,
+				795230C51D0F37750096912B /* must_eat_pressed.png in Resources */,
+				7985E4531D1B9F150078E30F /* logout.png in Resources */,
+				795230D51D0F388F0096912B /* message_pressed.png in Resources */,
+				7992E3611D14183A00D0E4D0 /* transport.png in Resources */,
+				795230CE1D0F37F10096912B /* attendees.png in Resources */,
+				790B8DE61D1AD4A90070EF5A /* Enneagram_circle.png in Resources */,
+				79DFBF2C1D1721BC00BF8F12 /* loginbutton.png in Resources */,
+				79C187661D1BE23200797084 /* unchecked_checkbox.png in Resources */,
+				795230C21D0F36D40096912B /* must_visit.png in Resources */,
+				7982F1E31D16AAF800E59385 /* Circle-upload.png in Resources */,
+				795230C91D0F37AA0096912B /* must_shop_pressed.png in Resources */,
+				795230D61D0F388F0096912B /* message.png in Resources */,
+				795230D21D0F384E0096912B /* photos.png in Resources */,
+				795230B31D0EE8000096912B /* vertical_BTDT.png in Resources */,
+				795230BE1D0F34D70096912B /* airplane.png in Resources */,
+				7952308B1D0EE7C50096912B /* LaunchScreen.storyboard in Resources */,
+				795230B51D0EE8000096912B /* vdoit4u_ic copy.png in Resources */,
+				79C187651D1BE23200797084 /* checked-checkbox-xxl.png in Resources */,
+				7982F1E11D16AA1000E59385 /* camera-icon.png in Resources */,
+				795230D91D0F3AA30096912B /* dash_pressed.png in Resources */,
+				795230D11D0F384E0096912B /* photos_pressed.png in Resources */,
+				795230CD1D0F37F10096912B /* attendees_pressed.png in Resources */,
+				795230CA1D0F37AA0096912B /* must_shop.png in Resources */,
+				795230B41D0EE8000096912B /* Login-Button.jpg in Resources */,
+				7992E35F1D1416C300D0E4D0 /* flight.png in Resources */,
+				795230881D0EE7C50096912B /* Assets.xcassets in Resources */,
+				795230DA1D0F3AA30096912B /* dash.png in Resources */,
+				795230861D0EE7C50096912B /* Main.storyboard in Resources */,
+				795230C11D0F36D40096912B /* must_visit_pressed.png in Resources */,
+				7982F1E51D16AC8900E59385 /* icon-2-circle-symbol.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7952308F1D0EE7C50096912B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7952309A1D0EE7C50096912B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		795230791D0EE7C50096912B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799376541D19938F00AAFF45 /* AccomodationViewController.swift in Sources */,
+				79CCAD391D188DCD001C399D /* SingletonClass.swift in Sources */,
+				79DECD281D14806600E06DEF /* MessagesViewController.swift in Sources */,
+				79DECD261D1477C600E06DEF /* PhotosViewController.swift in Sources */,
+				79DECD201D14699800E06DEF /* MustEatViewController.swift in Sources */,
+				7982F1DF1D16A7C400E59385 /* DashViewController.swift in Sources */,
+				795230B71D0EE8100096912B /* SecondViewController.swift in Sources */,
+				795230831D0EE7C50096912B /* ViewController.swift in Sources */,
+				795230811D0EE7C50096912B /* AppDelegate.swift in Sources */,
+				79DECD241D1471B300E06DEF /* AttendeesViewController.swift in Sources */,
+				79C187681D1BED1700797084 /* CheckBox.swift in Sources */,
+				7992E35D1D13F6BB00D0E4D0 /* FlightHomeViewController.swift in Sources */,
+				79DECD221D146A2F00E06DEF /* MustShopViewController.swift in Sources */,
+				79DECD1E1D14689200E06DEF /* MustVisitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7952308D1D0EE7C50096912B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795230961D0EE7C50096912B /* VDOIT4UTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795230981D0EE7C50096912B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795230A11D0EE7C50096912B /* VDOIT4UUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		795230931D0EE7C50096912B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7952307C1D0EE7C50096912B /* VDOIT4U */;
+			targetProxy = 795230921D0EE7C50096912B /* PBXContainerItemProxy */;
+		};
+		7952309E1D0EE7C50096912B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7952307C1D0EE7C50096912B /* VDOIT4U */;
+			targetProxy = 7952309D1D0EE7C50096912B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		795230841D0EE7C50096912B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				795230851D0EE7C50096912B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		795230891D0EE7C50096912B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7952308A1D0EE7C50096912B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		795230A31D0EE7C50096912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		795230A41D0EE7C50096912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		795230A61D0EE7C50096912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 2LT6JB86VS;
+				INFOPLIST_FILE = VDOIT4U/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdoit4u.VDOIT4U;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c6bea29a-d97b-4a94-bd97-5c16f633df26";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		795230A71D0EE7C50096912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 2LT6JB86VS;
+				INFOPLIST_FILE = VDOIT4U/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdoit4u.VDOIT4U;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c6bea29a-d97b-4a94-bd97-5c16f633df26";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		795230A91D0EE7C50096912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VDOIT4UTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdoit4u.VDOIT4UTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VDOIT4U.app/VDOIT4U";
+			};
+			name = Debug;
+		};
+		795230AA1D0EE7C50096912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VDOIT4UTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdoit4u.VDOIT4UTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VDOIT4U.app/VDOIT4U";
+			};
+			name = Release;
+		};
+		795230AC1D0EE7C50096912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VDOIT4UUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdoit4u.VDOIT4UUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VDOIT4U;
+			};
+			name = Debug;
+		};
+		795230AD1D0EE7C50096912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VDOIT4UUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdoit4u.VDOIT4UUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VDOIT4U;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		795230781D0EE7C50096912B /* Build configuration list for PBXProject "VDOIT4U" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795230A31D0EE7C50096912B /* Debug */,
+				795230A41D0EE7C50096912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		795230A51D0EE7C50096912B /* Build configuration list for PBXNativeTarget "VDOIT4U" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795230A61D0EE7C50096912B /* Debug */,
+				795230A71D0EE7C50096912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		795230A81D0EE7C50096912B /* Build configuration list for PBXNativeTarget "VDOIT4UTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795230A91D0EE7C50096912B /* Debug */,
+				795230AA1D0EE7C50096912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		795230AB1D0EE7C50096912B /* Build configuration list for PBXNativeTarget "VDOIT4UUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795230AC1D0EE7C50096912B /* Debug */,
+				795230AD1D0EE7C50096912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 795230751D0EE7C50096912B /* Project object */;
+}
